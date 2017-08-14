@@ -1,12 +1,12 @@
-# Command/Ctrl swapper
+# Atom Command/Ctrl swapper
 
-I have to move between Linxu and MacOS. It's almost impossible to
-have the perfect key binding on MacOS. I like to make MacOS like Linux
-rather than the opposite. So there two solutions:
+I have to move back and forth between Linxu and MacOS. It's almost
+impossible to have the perfect key binding on MacOS. Yet, I like to make MacOS
+like Linux rather than the opposite. So there two solutions:
 
 ## Swap Command and Ctrl at OS Level ##
 
-It's easily possible in MacOS to swap Command and Ctrl but I can't select
+It's easily possible in MacOS to swap `Command` and `Ctrl` but I can't select
 default XWin keybinding for my IntelliJ and the MacOS one is so different.
 
 ## Key defaults and define shortcuts ##
@@ -16,7 +16,7 @@ Copy/Paste/... on Mac and map them to Ctrl-C, Ctrl-V, ...
 
 Then I can use Default XWin keybinding on IntelliJ but the problem is
 Atom! It doesn't make sense to define all Atom shortcuts and replace
-Command with Ctrl. So I wrote this package.
+`Command` with `Ctrl`. So I wrote this package.
 
 # How to use
 
@@ -30,3 +30,5 @@ Toggle the package by either:
 
 - `Cmd-Shift-P` and then `Atom Swap Command Control: Toggle`
 - Navigate to menu choose `Packages -> Swap Command/Ctrl -> Toggle`
+
+Toggle again to go back to normal mode (turns of the swapper).
