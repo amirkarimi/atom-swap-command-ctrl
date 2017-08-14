@@ -1,15 +1,17 @@
 # Atom Command/Ctrl swapper
 
+> WARNING: This package is still under development
+
 I have to move back and forth between Linxu and MacOS. It's almost
 impossible to have the perfect key binding on MacOS. Yet, I like to make MacOS
 like Linux rather than the opposite. So there two solutions:
 
-## Swap Command and Ctrl at OS Level ##
+### Swap Command and Ctrl at OS Level ###
 
 It's easily possible in MacOS to swap `Command` and `Ctrl` but I can't select
 default XWin keybinding for my IntelliJ and the MacOS one is so different.
 
-## Key defaults and define shortcuts ##
+### Key defaults and define shortcuts ###
 
 It's possible to define shortcuts for general operations like
 Copy/Paste/... on Mac and map them to Ctrl-C, Ctrl-V, ...
