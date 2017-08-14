@@ -1,0 +1,19 @@
+{
+  "name": "atom-swap-command-control",
+  "main": "./lib/atom-swap-command-ctrl",
+  "version": "0.1.0",
+  "description": "Swaps Command and Control keys. It is usesful when you have to move back and forth between MacOS and Linux",
+  "keywords": [
+    "keyboard", "keybinding", "MacOS", "Linux"
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-swap-command-ctrl:toggle"
+  },
+  "repository": "https://github.com/amirkarimi/atom-swap-command-ctrl",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
