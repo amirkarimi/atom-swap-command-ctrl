@@ -1,26 +1,32 @@
 # Atom Command/Ctrl swapper
 
-> WARNING: This package is still under development
+Remaps `Command` key to `Control` and vice versa.
+
+## Why ##
 
 I have to move back and forth between Linxu and MacOS. It's almost
 impossible to have the perfect key binding on MacOS. Yet, I like to make MacOS
-like Linux rather than the opposite. So there two solutions:
+to behave like Linux rather than the opposite. So there two solutions:
 
-### Swap Command and Ctrl at OS Level ###
+### Swap Command and Ctrl at OS Level
 
-It's easily possible in MacOS to swap `Command` and `Ctrl` but I can't select
+It's [easily possible](https://superuser.com/questions/250611/mac-os-change-command-to-control-key)
+in MacOS to swap `Command` and `Ctrl` but I can't select
 default XWin keybinding for my IntelliJ and the MacOS one is so different.
 
-### Key defaults and define shortcuts ###
+### Key defaults and define shortcuts
 
 It's possible to define shortcuts for general operations like
 Copy/Paste/... on Mac and map them to Ctrl-C, Ctrl-V, ...
 
-Then I can use Default XWin keybinding on IntelliJ but the problem is
-Atom! It doesn't make sense to define all Atom shortcuts and replace
-`Command` with `Ctrl`. So I wrote this package.
+Then I can use Default XWin keybinding on IntelliJ but then
+Atom is not happy! Atom has different default key bindings base
+on the operating system which is running on. It doesn't make sense
+to define all Atom shortcuts and replace `Command` with `Ctrl`.
 
-# How to use
+So I created this package!
+
+## How to use
 
 Install the package
 

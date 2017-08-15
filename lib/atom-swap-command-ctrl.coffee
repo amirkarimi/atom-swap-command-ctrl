@@ -22,4 +22,6 @@ module.exports = AtomSwapCommandCtrl =
       @disposableKeystrokeResolver = atom.keymaps.addKeystrokeResolver (e) ->
           if e.keystroke.startsWith("ctrl")
             return "cmd" + e.keystroke.substr(4)
+          else if e.keystroke.startsWith("cmd")
+            return "ctrl" + e.keystroke.substr(3)
       atom.notifications.addInfo("Command/Control swapping enabled")
